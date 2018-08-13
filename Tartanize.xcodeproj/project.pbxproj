@@ -1,0 +1,856 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D8DCA89973DD90C7D16A1B5 /* Pods_TartanizeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425E0A0C601F977CAE8C6447 /* Pods_TartanizeUITests.framework */; };
+		A9FF6C72211EE88A0054FBD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6C71211EE88A0054FBD5 /* AppDelegate.swift */; };
+		A9FF6C79211EE8950054FBD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6C78211EE8950054FBD5 /* Assets.xcassets */; };
+		A9FF6C7C211EE8950054FBD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6C7A211EE8950054FBD5 /* LaunchScreen.storyboard */; };
+		A9FF6C87211EE8950054FBD5 /* TartanizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6C86211EE8950054FBD5 /* TartanizeTests.swift */; };
+		A9FF6C92211EE8950054FBD5 /* TartanizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6C91211EE8950054FBD5 /* TartanizeUITests.swift */; };
+		A9FF6CA0211EE8C80054FBD5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6C9F211EE8C80054FBD5 /* Podfile */; };
+		A9FF6CAC211EEA430054FBD5 /* ColorPickedAssetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CA4211EEA430054FBD5 /* ColorPickedAssetsTableViewController.swift */; };
+		A9FF6CAD211EEA430054FBD5 /* ColorPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CA5211EEA430054FBD5 /* ColorPickerTableViewController.swift */; };
+		A9FF6CAE211EEA430054FBD5 /* TartanLibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CA6211EEA430054FBD5 /* TartanLibraryTableViewController.swift */; };
+		A9FF6CAF211EEA430054FBD5 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CA7211EEA430054FBD5 /* PageViewController.swift */; };
+		A9FF6CB0211EEA430054FBD5 /* PaletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CA8211EEA430054FBD5 /* PaletCell.swift */; };
+		A9FF6CB2211EEA430054FBD5 /* TVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CAA211EEA430054FBD5 /* TVCell.swift */; };
+		A9FF6CC6211EEA4C0054FBD5 /* FilteredTartanImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CB4211EEA4C0054FBD5 /* FilteredTartanImageService.swift */; };
+		A9FF6CC7211EEA4C0054FBD5 /* ColorShapeImager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CB6211EEA4C0054FBD5 /* ColorShapeImager.swift */; };
+		A9FF6CC8211EEA4C0054FBD5 /* UIImage+Collage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CB7211EEA4C0054FBD5 /* UIImage+Collage.swift */; };
+		A9FF6CC9211EEA4C0054FBD5 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CB8211EEA4C0054FBD5 /* ImageRequest.swift */; };
+		A9FF6CCA211EEA4C0054FBD5 /* LayOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CB9211EEA4C0054FBD5 /* LayOut.swift */; };
+		A9FF6CCB211EEA4C0054FBD5 /* LibraryAssetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CBC211EEA4C0054FBD5 /* LibraryAssetService.swift */; };
+		A9FF6CCC211EEA4C0054FBD5 /* Palet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CBD211EEA4C0054FBD5 /* Palet.swift */; };
+		A9FF6CCD211EEA4C0054FBD5 /* tartandefs elements as row.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6CC0211EEA4C0054FBD5 /* tartandefs elements as row.rtf */; };
+		A9FF6CCE211EEA4C0054FBD5 /* TartanLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CC1211EEA4C0054FBD5 /* TartanLibrary.swift */; };
+		A9FF6CCF211EEA4C0054FBD5 /* TitleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CC2211EEA4C0054FBD5 /* TitleService.swift */; };
+		A9FF6CD0211EEA4C0054FBD5 /* Tartan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CC3211EEA4C0054FBD5 /* Tartan.swift */; };
+		A9FF6CD1211EEA4C0054FBD5 /* ZPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CC4211EEA4C0054FBD5 /* ZPattern.swift */; };
+		A9FF6CD2211EEA4C0054FBD5 /* TartanImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CC5211EEA4C0054FBD5 /* TartanImageService.swift */; };
+		A9FF6CD7211EEA580054FBD5 /* ColorPickedAssetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CD4211EEA580054FBD5 /* ColorPickedAssetsViewModel.swift */; };
+		A9FF6CD8211EEA580054FBD5 /* ColorPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CD5211EEA580054FBD5 /* ColorPickerViewModel.swift */; };
+		A9FF6CD9211EEA580054FBD5 /* TartanLibraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CD6211EEA580054FBD5 /* TartanLibraryViewModel.swift */; };
+		A9FF6CDB211EEA800054FBD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6CDA211EEA7F0054FBD5 /* Main.storyboard */; };
+		A9FF6CDD211F39270054FBD5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6CDC211F39270054FBD5 /* Extensions.swift */; };
+		C9EB40605C91BAA14E0FCC38 /* Pods_TartanizeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAA67040FAB8A0639BBDA17 /* Pods_TartanizeTests.framework */; };
+		CA3794DE78C9849480A2610D /* Pods_Tartanize.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7525F1D490CE320980789E /* Pods_Tartanize.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9FF6C83211EE8950054FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FF6C66211EE88A0054FBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FF6C6D211EE88A0054FBD5;
+			remoteInfo = Tartanize;
+		};
+		A9FF6C8E211EE8950054FBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9FF6C66211EE88A0054FBD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9FF6C6D211EE88A0054FBD5;
+			remoteInfo = Tartanize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		099094C11F19B17B34A9080D /* Pods-TartanizeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TartanizeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TartanizeUITests/Pods-TartanizeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		425E0A0C601F977CAE8C6447 /* Pods_TartanizeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TartanizeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4686640BCFAEED4059B6B18D /* Pods-Tartanize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tartanize.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tartanize/Pods-Tartanize.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEC87329E56E62F0B906D49 /* Pods-Tartanize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tartanize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tartanize/Pods-Tartanize.release.xcconfig"; sourceTree = "<group>"; };
+		8E7525F1D490CE320980789E /* Pods_Tartanize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tartanize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74BA9F07454A95D175C970D /* Pods-TartanizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TartanizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TartanizeTests/Pods-TartanizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9FF6C6E211EE88A0054FBD5 /* Tartanize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tartanize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FF6C71211EE88A0054FBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9FF6C78211EE8950054FBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9FF6C7B211EE8950054FBD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9FF6C7D211EE8950054FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FF6C82211EE8950054FBD5 /* TartanizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TartanizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FF6C86211EE8950054FBD5 /* TartanizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartanizeTests.swift; sourceTree = "<group>"; };
+		A9FF6C88211EE8950054FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FF6C8D211EE8950054FBD5 /* TartanizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TartanizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9FF6C91211EE8950054FBD5 /* TartanizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TartanizeUITests.swift; sourceTree = "<group>"; };
+		A9FF6C93211EE8950054FBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FF6C9F211EE8C80054FBD5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A9FF6CA4211EEA430054FBD5 /* ColorPickedAssetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickedAssetsTableViewController.swift; sourceTree = "<group>"; };
+		A9FF6CA5211EEA430054FBD5 /* ColorPickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerTableViewController.swift; sourceTree = "<group>"; };
+		A9FF6CA6211EEA430054FBD5 /* TartanLibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TartanLibraryTableViewController.swift; sourceTree = "<group>"; };
+		A9FF6CA7211EEA430054FBD5 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		A9FF6CA8211EEA430054FBD5 /* PaletCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletCell.swift; sourceTree = "<group>"; };
+		A9FF6CAA211EEA430054FBD5 /* TVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCell.swift; sourceTree = "<group>"; };
+		A9FF6CB4211EEA4C0054FBD5 /* FilteredTartanImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilteredTartanImageService.swift; sourceTree = "<group>"; };
+		A9FF6CB6211EEA4C0054FBD5 /* ColorShapeImager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorShapeImager.swift; sourceTree = "<group>"; };
+		A9FF6CB7211EEA4C0054FBD5 /* UIImage+Collage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Collage.swift"; sourceTree = "<group>"; };
+		A9FF6CB8211EEA4C0054FBD5 /* ImageRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageRequest.swift; sourceTree = "<group>"; };
+		A9FF6CB9211EEA4C0054FBD5 /* LayOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayOut.swift; sourceTree = "<group>"; };
+		A9FF6CBC211EEA4C0054FBD5 /* LibraryAssetService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryAssetService.swift; sourceTree = "<group>"; };
+		A9FF6CBD211EEA4C0054FBD5 /* Palet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Palet.swift; sourceTree = "<group>"; };
+		A9FF6CC0211EEA4C0054FBD5 /* tartandefs elements as row.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "tartandefs elements as row.rtf"; sourceTree = "<group>"; };
+		A9FF6CC1211EEA4C0054FBD5 /* TartanLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TartanLibrary.swift; sourceTree = "<group>"; };
+		A9FF6CC2211EEA4C0054FBD5 /* TitleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleService.swift; sourceTree = "<group>"; };
+		A9FF6CC3211EEA4C0054FBD5 /* Tartan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tartan.swift; sourceTree = "<group>"; };
+		A9FF6CC4211EEA4C0054FBD5 /* ZPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPattern.swift; sourceTree = "<group>"; };
+		A9FF6CC5211EEA4C0054FBD5 /* TartanImageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TartanImageService.swift; sourceTree = "<group>"; };
+		A9FF6CD4211EEA580054FBD5 /* ColorPickedAssetsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickedAssetsViewModel.swift; sourceTree = "<group>"; };
+		A9FF6CD5211EEA580054FBD5 /* ColorPickerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPickerViewModel.swift; sourceTree = "<group>"; };
+		A9FF6CD6211EEA580054FBD5 /* TartanLibraryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TartanLibraryViewModel.swift; sourceTree = "<group>"; };
+		A9FF6CDA211EEA7F0054FBD5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A9FF6CDC211F39270054FBD5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BBAA67040FAB8A0639BBDA17 /* Pods_TartanizeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TartanizeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2D28F05FD9CE5F39015E71A /* Pods-TartanizeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TartanizeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TartanizeUITests/Pods-TartanizeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3F016BBA15C36C7ED947D68 /* Pods-TartanizeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TartanizeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TartanizeTests/Pods-TartanizeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9FF6C6B211EE88A0054FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3794DE78C9849480A2610D /* Pods_Tartanize.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C7F211EE8950054FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9EB40605C91BAA14E0FCC38 /* Pods_TartanizeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C8A211EE8950054FBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8DCA89973DD90C7D16A1B5 /* Pods_TartanizeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417A7D424B5D8522C094B68F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4686640BCFAEED4059B6B18D /* Pods-Tartanize.debug.xcconfig */,
+				8CEC87329E56E62F0B906D49 /* Pods-Tartanize.release.xcconfig */,
+				F3F016BBA15C36C7ED947D68 /* Pods-TartanizeTests.debug.xcconfig */,
+				A74BA9F07454A95D175C970D /* Pods-TartanizeTests.release.xcconfig */,
+				099094C11F19B17B34A9080D /* Pods-TartanizeUITests.debug.xcconfig */,
+				D2D28F05FD9CE5F39015E71A /* Pods-TartanizeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A9FF6C65211EE88A0054FBD5 = {
+			isa = PBXGroup;
+			children = (
+				A9FF6C70211EE88A0054FBD5 /* Tartanize */,
+				A9FF6C85211EE8950054FBD5 /* TartanizeTests */,
+				A9FF6C90211EE8950054FBD5 /* TartanizeUITests */,
+				A9FF6C6F211EE88A0054FBD5 /* Products */,
+				A9FF6C9F211EE8C80054FBD5 /* Podfile */,
+				417A7D424B5D8522C094B68F /* Pods */,
+				E2F1E863850903AC3BF1571A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9FF6C6F211EE88A0054FBD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6C6E211EE88A0054FBD5 /* Tartanize.app */,
+				A9FF6C82211EE8950054FBD5 /* TartanizeTests.xctest */,
+				A9FF6C8D211EE8950054FBD5 /* TartanizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9FF6C70211EE88A0054FBD5 /* Tartanize */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CB3211EEA4C0054FBD5 /* Model */,
+				A9FF6CD3211EEA580054FBD5 /* ViewModels */,
+				A9FF6CA1211EEA430054FBD5 /* Controllers */,
+				A9FF6C71211EE88A0054FBD5 /* AppDelegate.swift */,
+				A9FF6CDA211EEA7F0054FBD5 /* Main.storyboard */,
+				A9FF6C78211EE8950054FBD5 /* Assets.xcassets */,
+				A9FF6C7A211EE8950054FBD5 /* LaunchScreen.storyboard */,
+				A9FF6C7D211EE8950054FBD5 /* Info.plist */,
+			);
+			path = Tartanize;
+			sourceTree = "<group>";
+		};
+		A9FF6C85211EE8950054FBD5 /* TartanizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6C86211EE8950054FBD5 /* TartanizeTests.swift */,
+				A9FF6C88211EE8950054FBD5 /* Info.plist */,
+			);
+			path = TartanizeTests;
+			sourceTree = "<group>";
+		};
+		A9FF6C90211EE8950054FBD5 /* TartanizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6C91211EE8950054FBD5 /* TartanizeUITests.swift */,
+				A9FF6C93211EE8950054FBD5 /* Info.plist */,
+			);
+			path = TartanizeUITests;
+			sourceTree = "<group>";
+		};
+		A9FF6CA1211EEA430054FBD5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CA3211EEA430054FBD5 /* PageControllers */,
+				A9FF6CA7211EEA430054FBD5 /* PageViewController.swift */,
+				A9FF6CA8211EEA430054FBD5 /* PaletCell.swift */,
+				A9FF6CAA211EEA430054FBD5 /* TVCell.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9FF6CA3211EEA430054FBD5 /* PageControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CA4211EEA430054FBD5 /* ColorPickedAssetsTableViewController.swift */,
+				A9FF6CA5211EEA430054FBD5 /* ColorPickerTableViewController.swift */,
+				A9FF6CA6211EEA430054FBD5 /* TartanLibraryTableViewController.swift */,
+			);
+			path = PageControllers;
+			sourceTree = "<group>";
+		};
+		A9FF6CB3211EEA4C0054FBD5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CB4211EEA4C0054FBD5 /* FilteredTartanImageService.swift */,
+				A9FF6CB5211EEA4C0054FBD5 /* Imager */,
+				A9FF6CB8211EEA4C0054FBD5 /* ImageRequest.swift */,
+				A9FF6CB9211EEA4C0054FBD5 /* LayOut.swift */,
+				A9FF6CBA211EEA4C0054FBD5 /* Tartan */,
+				A9FF6CC5211EEA4C0054FBD5 /* TartanImageService.swift */,
+			);
+			name = Model;
+			path = Tartanize/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9FF6CB5211EEA4C0054FBD5 /* Imager */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CB6211EEA4C0054FBD5 /* ColorShapeImager.swift */,
+				A9FF6CB7211EEA4C0054FBD5 /* UIImage+Collage.swift */,
+			);
+			path = Imager;
+			sourceTree = "<group>";
+		};
+		A9FF6CBA211EEA4C0054FBD5 /* Tartan */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CBB211EEA4C0054FBD5 /* Library */,
+				A9FF6CC3211EEA4C0054FBD5 /* Tartan.swift */,
+				A9FF6CC4211EEA4C0054FBD5 /* ZPattern.swift */,
+				A9FF6CDC211F39270054FBD5 /* Extensions.swift */,
+			);
+			path = Tartan;
+			sourceTree = "<group>";
+		};
+		A9FF6CBB211EEA4C0054FBD5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CC2211EEA4C0054FBD5 /* TitleService.swift */,
+				A9FF6CBC211EEA4C0054FBD5 /* LibraryAssetService.swift */,
+				A9FF6CBD211EEA4C0054FBD5 /* Palet.swift */,
+				A9FF6CC1211EEA4C0054FBD5 /* TartanLibrary.swift */,
+				A9FF6CC0211EEA4C0054FBD5 /* tartandefs elements as row.rtf */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		A9FF6CD3211EEA580054FBD5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A9FF6CD4211EEA580054FBD5 /* ColorPickedAssetsViewModel.swift */,
+				A9FF6CD5211EEA580054FBD5 /* ColorPickerViewModel.swift */,
+				A9FF6CD6211EEA580054FBD5 /* TartanLibraryViewModel.swift */,
+			);
+			name = ViewModels;
+			path = Tartanize/ViewModels;
+			sourceTree = SOURCE_ROOT;
+		};
+		E2F1E863850903AC3BF1571A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7525F1D490CE320980789E /* Pods_Tartanize.framework */,
+				BBAA67040FAB8A0639BBDA17 /* Pods_TartanizeTests.framework */,
+				425E0A0C601F977CAE8C6447 /* Pods_TartanizeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9FF6C6D211EE88A0054FBD5 /* Tartanize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FF6C96211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "Tartanize" */;
+			buildPhases = (
+				1822D133F2E38A5A1F9D69FC /* [CP] Check Pods Manifest.lock */,
+				A9FF6C6A211EE88A0054FBD5 /* Sources */,
+				A9FF6C6B211EE88A0054FBD5 /* Frameworks */,
+				A9FF6C6C211EE88A0054FBD5 /* Resources */,
+				59EB0F4ABB8823A984995BC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tartanize;
+			productName = Tartanize;
+			productReference = A9FF6C6E211EE88A0054FBD5 /* Tartanize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9FF6C81211EE8950054FBD5 /* TartanizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FF6C99211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "TartanizeTests" */;
+			buildPhases = (
+				83A9DA581219316FA4A241AC /* [CP] Check Pods Manifest.lock */,
+				A9FF6C7E211EE8950054FBD5 /* Sources */,
+				A9FF6C7F211EE8950054FBD5 /* Frameworks */,
+				A9FF6C80211EE8950054FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FF6C84211EE8950054FBD5 /* PBXTargetDependency */,
+			);
+			name = TartanizeTests;
+			productName = TartanizeTests;
+			productReference = A9FF6C82211EE8950054FBD5 /* TartanizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9FF6C8C211EE8950054FBD5 /* TartanizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9FF6C9C211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "TartanizeUITests" */;
+			buildPhases = (
+				96BDCAF59F1063D3A2BA5E18 /* [CP] Check Pods Manifest.lock */,
+				A9FF6C89211EE8950054FBD5 /* Sources */,
+				A9FF6C8A211EE8950054FBD5 /* Frameworks */,
+				A9FF6C8B211EE8950054FBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9FF6C8F211EE8950054FBD5 /* PBXTargetDependency */,
+			);
+			name = TartanizeUITests;
+			productName = TartanizeUITests;
+			productReference = A9FF6C8D211EE8950054FBD5 /* TartanizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9FF6C66211EE88A0054FBD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jeroen Dunselman";
+				TargetAttributes = {
+					A9FF6C6D211EE88A0054FBD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A9FF6C81211EE8950054FBD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A9FF6C6D211EE88A0054FBD5;
+					};
+					A9FF6C8C211EE8950054FBD5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A9FF6C6D211EE88A0054FBD5;
+					};
+				};
+			};
+			buildConfigurationList = A9FF6C69211EE88A0054FBD5 /* Build configuration list for PBXProject "Tartanize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9FF6C65211EE88A0054FBD5;
+			productRefGroup = A9FF6C6F211EE88A0054FBD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9FF6C6D211EE88A0054FBD5 /* Tartanize */,
+				A9FF6C81211EE8950054FBD5 /* TartanizeTests */,
+				A9FF6C8C211EE8950054FBD5 /* TartanizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9FF6C6C211EE88A0054FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FF6C7C211EE8950054FBD5 /* LaunchScreen.storyboard in Resources */,
+				A9FF6C79211EE8950054FBD5 /* Assets.xcassets in Resources */,
+				A9FF6CA0211EE8C80054FBD5 /* Podfile in Resources */,
+				A9FF6CDB211EEA800054FBD5 /* Main.storyboard in Resources */,
+				A9FF6CCD211EEA4C0054FBD5 /* tartandefs elements as row.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C80211EE8950054FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C8B211EE8950054FBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1822D133F2E38A5A1F9D69FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tartanize-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59EB0F4ABB8823A984995BC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tartanize/Pods-Tartanize-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tartanize/Pods-Tartanize-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A9DA581219316FA4A241AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TartanizeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96BDCAF59F1063D3A2BA5E18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TartanizeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9FF6C6A211EE88A0054FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FF6CB0211EEA430054FBD5 /* PaletCell.swift in Sources */,
+				A9FF6CD2211EEA4C0054FBD5 /* TartanImageService.swift in Sources */,
+				A9FF6CAF211EEA430054FBD5 /* PageViewController.swift in Sources */,
+				A9FF6CB2211EEA430054FBD5 /* TVCell.swift in Sources */,
+				A9FF6CCA211EEA4C0054FBD5 /* LayOut.swift in Sources */,
+				A9FF6CD8211EEA580054FBD5 /* ColorPickerViewModel.swift in Sources */,
+				A9FF6CD9211EEA580054FBD5 /* TartanLibraryViewModel.swift in Sources */,
+				A9FF6CAD211EEA430054FBD5 /* ColorPickerTableViewController.swift in Sources */,
+				A9FF6CD7211EEA580054FBD5 /* ColorPickedAssetsViewModel.swift in Sources */,
+				A9FF6CC9211EEA4C0054FBD5 /* ImageRequest.swift in Sources */,
+				A9FF6CCC211EEA4C0054FBD5 /* Palet.swift in Sources */,
+				A9FF6CDD211F39270054FBD5 /* Extensions.swift in Sources */,
+				A9FF6CCF211EEA4C0054FBD5 /* TitleService.swift in Sources */,
+				A9FF6CC7211EEA4C0054FBD5 /* ColorShapeImager.swift in Sources */,
+				A9FF6CC8211EEA4C0054FBD5 /* UIImage+Collage.swift in Sources */,
+				A9FF6CCE211EEA4C0054FBD5 /* TartanLibrary.swift in Sources */,
+				A9FF6CCB211EEA4C0054FBD5 /* LibraryAssetService.swift in Sources */,
+				A9FF6CC6211EEA4C0054FBD5 /* FilteredTartanImageService.swift in Sources */,
+				A9FF6CAE211EEA430054FBD5 /* TartanLibraryTableViewController.swift in Sources */,
+				A9FF6CD0211EEA4C0054FBD5 /* Tartan.swift in Sources */,
+				A9FF6CAC211EEA430054FBD5 /* ColorPickedAssetsTableViewController.swift in Sources */,
+				A9FF6CD1211EEA4C0054FBD5 /* ZPattern.swift in Sources */,
+				A9FF6C72211EE88A0054FBD5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C7E211EE8950054FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FF6C87211EE8950054FBD5 /* TartanizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9FF6C89211EE8950054FBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9FF6C92211EE8950054FBD5 /* TartanizeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9FF6C84211EE8950054FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FF6C6D211EE88A0054FBD5 /* Tartanize */;
+			targetProxy = A9FF6C83211EE8950054FBD5 /* PBXContainerItemProxy */;
+		};
+		A9FF6C8F211EE8950054FBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9FF6C6D211EE88A0054FBD5 /* Tartanize */;
+			targetProxy = A9FF6C8E211EE8950054FBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9FF6C7A211EE8950054FBD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9FF6C7B211EE8950054FBD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9FF6C94211EE8950054FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9FF6C95211EE8950054FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9FF6C97211EE8950054FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4686640BCFAEED4059B6B18D /* Pods-Tartanize.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = Tartanize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.Tartanize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9FF6C98211EE8950054FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEC87329E56E62F0B906D49 /* Pods-Tartanize.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = Tartanize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.Tartanize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9FF6C9A211EE8950054FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F016BBA15C36C7ED947D68 /* Pods-TartanizeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = TartanizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.TartanizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tartanize.app/Tartanize";
+			};
+			name = Debug;
+		};
+		A9FF6C9B211EE8950054FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A74BA9F07454A95D175C970D /* Pods-TartanizeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = TartanizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.TartanizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tartanize.app/Tartanize";
+			};
+			name = Release;
+		};
+		A9FF6C9D211EE8950054FBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099094C11F19B17B34A9080D /* Pods-TartanizeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = TartanizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.TartanizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tartanize;
+			};
+			name = Debug;
+		};
+		A9FF6C9E211EE8950054FBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D28F05FD9CE5F39015E71A /* Pods-TartanizeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				INFOPLIST_FILE = TartanizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.TartanizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tartanize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9FF6C69211EE88A0054FBD5 /* Build configuration list for PBXProject "Tartanize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FF6C94211EE8950054FBD5 /* Debug */,
+				A9FF6C95211EE8950054FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FF6C96211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "Tartanize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FF6C97211EE8950054FBD5 /* Debug */,
+				A9FF6C98211EE8950054FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FF6C99211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "TartanizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FF6C9A211EE8950054FBD5 /* Debug */,
+				A9FF6C9B211EE8950054FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9FF6C9C211EE8950054FBD5 /* Build configuration list for PBXNativeTarget "TartanizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9FF6C9D211EE8950054FBD5 /* Debug */,
+				A9FF6C9E211EE8950054FBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9FF6C66211EE88A0054FBD5 /* Project object */;
+}

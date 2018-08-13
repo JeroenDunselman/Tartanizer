@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tartanize/ViewModels/TartanLibraryViewModel.swift"
+            timestampString = "555803218.762551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "subscribeToSelectedColorIndexes(colorPickerModel:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Tartanize.LayOut) -&gt; () in Tartanize.TartanLibraryViewModel.subscribeToSelectedColorIndexes(colorPickerModel: Tartanize.ColorPickerViewModel) -&gt; ()"
+                  moduleName = "Tartanize"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeroendunselman/Documents/Projects/current/Tartanize/Tartanize/ViewModels/TartanLibraryViewModel.swift"
+                  timestampString = "555681128.768257"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int) -&gt; Swift.Bool in closure #3 (Tartanize.LayOut) -&gt; () in Tartanize.TartanLibraryViewModel.subscribeToSelectedColorIndexes(colorPickerModel: Tartanize.ColorPickerViewModel) -&gt; ()"
+                  moduleName = "Tartanize"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeroendunselman/Documents/Projects/current/Tartanize/Tartanize/ViewModels/TartanLibraryViewModel.swift"
+                  timestampString = "555681128.771354"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "103"
+                  endingLineNumber = "103"
+                  offsetFromSymbolStart = "8">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tartanize/Model/TartanImageService.swift"
+            timestampString = "555799343.177018"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "contentFor(keyTitle:imageView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tartanize/Model/TartanImageService.swift"
+            timestampString = "555799343.177451"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "contentFor(keyTitle:imageView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tartanize/Model/TartanImageService.swift"
+            timestampString = "555799343.177948"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "contentFor(keyTitle:imageView:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tartanize.TartanImageService.contentFor(keyTitle: Swift.String, imageView: Swift.Optional&lt;__ObjC.UIImageView&gt;) -&gt; Swift.Optional&lt;(entry: (title: Swift.String, definition: Swift.Optional&lt;(tartan: Tartanize.Tartan, info: Swift.Dictionary&lt;Swift.String, Any&gt;)&gt;), request: Tartanize.ImageRequest)&gt;"
+                  moduleName = "Tartanize"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeroendunselman/Documents/Projects/current/Tartanize/Tartanize/Model/TartanImageService.swift"
+                  timestampString = "555799487.337378"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2000">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 ((title: Swift.String, definition: Swift.Optional&lt;(tartan: Tartanize.Tartan, info: Swift.Dictionary&lt;Swift.String, Any&gt;)&gt;)) -&gt; Swift.Bool in Tartanize.TartanImageService.contentFor(keyTitle: Swift.String, imageView: Swift.Optional&lt;__ObjC.UIImageView&gt;) -&gt; Swift.Optional&lt;(entry: (title: Swift.String, definition: Swift.Optional&lt;(tartan: Tartanize.Tartan, info: Swift.Dictionary&lt;Swift.String, Any&gt;)&gt;), request: Tartanize.ImageRequest)&gt;"
+                  moduleName = "Tartanize"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jeroendunselman/Documents/Projects/current/Tartanize/Tartanize/Model/TartanImageService.swift"
+                  timestampString = "555799487.340273"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "51">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tartanize/Model/TartanImageService.swift"
+            timestampString = "555799343.178254"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "contentFor(keyTitle:imageView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

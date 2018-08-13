@@ -1,0 +1,6 @@
+framework module Pods_TartanizeUITests {
+  umbrella header "Pods-TartanizeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
