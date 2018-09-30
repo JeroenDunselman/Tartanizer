@@ -15,7 +15,7 @@ class LibraryAssetService {
     var checkOut:[Entry] = []
     
     public func contentTitles() -> [String] {
-        return content.reduce([]) {ar, el in ar + [el.entry.title] } 
+        return content.reduce([]) {ar, el in ar + [el.entry.title].compactMap({return $0 }) } 
     }
     
     init() {

@@ -66,6 +66,156 @@
 		8CEC87329E56E62F0B906D49 /* Pods-Tartanize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tartanize.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tartanize/Pods-Tartanize.release.xcconfig"; sourceTree = "<group>"; };
 		8E7525F1D490CE320980789E /* Pods_Tartanize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tartanize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74BA9F07454A95D175C970D /* Pods-TartanizeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TartanizeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TartanizeTests/Pods-TartanizeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9D8B8B92160CEF700048ED0 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		A9D8B8BC2160CEF700048ED0 /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		A9D8B8BD2160CEF700048ED0 /* InfiniteSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteSequence.swift; sourceTree = "<group>"; };
+		A9D8B8BE2160CEF700048ED0 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		A9D8B8BF2160CEF700048ED0 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		A9D8B8C02160CEF700048ED0 /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		A9D8B8C12160CEF700048ED0 /* Platform.Darwin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Darwin.swift; sourceTree = "<group>"; };
+		A9D8B8C22160CEF700048ED0 /* Platform.Linux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.Linux.swift; sourceTree = "<group>"; };
+		A9D8B8C32160CEF700048ED0 /* RecursiveLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveLock.swift; sourceTree = "<group>"; };
+		A9D8B8C42160CEF700048ED0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9D8B8C62160CEF700048ED0 /* AnyObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyObserver.swift; sourceTree = "<group>"; };
+		A9D8B8C72160CEF700048ED0 /* Cancelable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cancelable.swift; sourceTree = "<group>"; };
+		A9D8B8C92160CEF700048ED0 /* AsyncLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLock.swift; sourceTree = "<group>"; };
+		A9D8B8CA2160CEF700048ED0 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+		A9D8B8CB2160CEF700048ED0 /* LockOwnerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockOwnerType.swift; sourceTree = "<group>"; };
+		A9D8B8CC2160CEF700048ED0 /* SynchronizedDisposeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedDisposeType.swift; sourceTree = "<group>"; };
+		A9D8B8CD2160CEF700048ED0 /* SynchronizedOnType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedOnType.swift; sourceTree = "<group>"; };
+		A9D8B8CE2160CEF700048ED0 /* SynchronizedUnsubscribeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynchronizedUnsubscribeType.swift; sourceTree = "<group>"; };
+		A9D8B8CF2160CEF700048ED0 /* ConnectableObservableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectableObservableType.swift; sourceTree = "<group>"; };
+		A9D8B8D02160CEF700048ED0 /* Deprecated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deprecated.swift; sourceTree = "<group>"; };
+		A9D8B8D12160CEF700048ED0 /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		A9D8B8D32160CEF700048ED0 /* AnonymousDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8D42160CEF700048ED0 /* BinaryDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8D52160CEF700048ED0 /* BooleanDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooleanDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8D62160CEF700048ED0 /* CompositeDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositeDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8D72160CEF700048ED0 /* Disposables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposables.swift; sourceTree = "<group>"; };
+		A9D8B8D82160CEF700048ED0 /* DisposeBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBag.swift; sourceTree = "<group>"; };
+		A9D8B8D92160CEF700048ED0 /* DisposeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisposeBase.swift; sourceTree = "<group>"; };
+		A9D8B8DA2160CEF700048ED0 /* NopDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NopDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8DB2160CEF700048ED0 /* RefCountDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefCountDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8DC2160CEF700048ED0 /* ScheduledDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8DD2160CEF700048ED0 /* SerialDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8DE2160CEF700048ED0 /* SingleAssignmentDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAssignmentDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8DF2160CEF700048ED0 /* SubscriptionDisposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionDisposable.swift; sourceTree = "<group>"; };
+		A9D8B8E02160CEF700048ED0 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		A9D8B8E12160CEF700048ED0 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A9D8B8E32160CEF700048ED0 /* Bag+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bag+Rx.swift"; sourceTree = "<group>"; };
+		A9D8B8E42160CEF700048ED0 /* String+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Rx.swift"; sourceTree = "<group>"; };
+		A9D8B8E52160CEF700048ED0 /* GroupedObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedObservable.swift; sourceTree = "<group>"; };
+		A9D8B8E62160CEF700048ED0 /* ImmediateSchedulerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmediateSchedulerType.swift; sourceTree = "<group>"; };
+		A9D8B8E72160CEF700048ED0 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A9D8B8E82160CEF700048ED0 /* ObservableConvertibleType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableConvertibleType.swift; sourceTree = "<group>"; };
+		A9D8B8EA2160CEF700048ED0 /* AddRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRef.swift; sourceTree = "<group>"; };
+		A9D8B8EB2160CEF700048ED0 /* Amb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amb.swift; sourceTree = "<group>"; };
+		A9D8B8EC2160CEF700048ED0 /* AsMaybe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsMaybe.swift; sourceTree = "<group>"; };
+		A9D8B8ED2160CEF700048ED0 /* AsSingle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsSingle.swift; sourceTree = "<group>"; };
+		A9D8B8EE2160CEF700048ED0 /* Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buffer.swift; sourceTree = "<group>"; };
+		A9D8B8EF2160CEF700048ED0 /* Catch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catch.swift; sourceTree = "<group>"; };
+		A9D8B8F02160CEF700048ED0 /* CombineLatest+arity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CombineLatest+arity.swift"; sourceTree = "<group>"; };
+		A9D8B8F12160CEF700048ED0 /* CombineLatest+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CombineLatest+Collection.swift"; sourceTree = "<group>"; };
+		A9D8B8F22160CEF700048ED0 /* CombineLatest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineLatest.swift; sourceTree = "<group>"; };
+		A9D8B8F32160CEF700048ED0 /* Concat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concat.swift; sourceTree = "<group>"; };
+		A9D8B8F42160CEF700048ED0 /* Create.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Create.swift; sourceTree = "<group>"; };
+		A9D8B8F52160CEF700048ED0 /* Debounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debounce.swift; sourceTree = "<group>"; };
+		A9D8B8F62160CEF700048ED0 /* Debug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Debug.swift; sourceTree = "<group>"; };
+		A9D8B8F72160CEF700048ED0 /* DefaultIfEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIfEmpty.swift; sourceTree = "<group>"; };
+		A9D8B8F82160CEF700048ED0 /* Deferred.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deferred.swift; sourceTree = "<group>"; };
+		A9D8B8F92160CEF700048ED0 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		A9D8B8FA2160CEF700048ED0 /* DelaySubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelaySubscription.swift; sourceTree = "<group>"; };
+		A9D8B8FB2160CEF700048ED0 /* Dematerialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dematerialize.swift; sourceTree = "<group>"; };
+		A9D8B8FC2160CEF700048ED0 /* DistinctUntilChanged.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistinctUntilChanged.swift; sourceTree = "<group>"; };
+		A9D8B8FD2160CEF700048ED0 /* Do.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do.swift; sourceTree = "<group>"; };
+		A9D8B8FE2160CEF700048ED0 /* ElementAt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementAt.swift; sourceTree = "<group>"; };
+		A9D8B8FF2160CEF700048ED0 /* Empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty.swift; sourceTree = "<group>"; };
+		A9D8B9002160CEF700048ED0 /* Enumerated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumerated.swift; sourceTree = "<group>"; };
+		A9D8B9012160CEF700048ED0 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		A9D8B9022160CEF700048ED0 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		A9D8B9032160CEF700048ED0 /* First.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		A9D8B9042160CEF700048ED0 /* Generate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generate.swift; sourceTree = "<group>"; };
+		A9D8B9052160CEF700048ED0 /* GroupBy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBy.swift; sourceTree = "<group>"; };
+		A9D8B9062160CEF700048ED0 /* Just.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+		A9D8B9072160CEF700048ED0 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		A9D8B9082160CEF700048ED0 /* Materialize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materialize.swift; sourceTree = "<group>"; };
+		A9D8B9092160CEF700048ED0 /* Merge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Merge.swift; sourceTree = "<group>"; };
+		A9D8B90A2160CEF700048ED0 /* Multicast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multicast.swift; sourceTree = "<group>"; };
+		A9D8B90B2160CEF700048ED0 /* Never.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Never.swift; sourceTree = "<group>"; };
+		A9D8B90C2160CEF700048ED0 /* ObserveOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserveOn.swift; sourceTree = "<group>"; };
+		A9D8B90D2160CEF700048ED0 /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		A9D8B90E2160CEF700048ED0 /* Producer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producer.swift; sourceTree = "<group>"; };
+		A9D8B90F2160CEF700048ED0 /* Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		A9D8B9102160CEF700048ED0 /* Reduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reduce.swift; sourceTree = "<group>"; };
+		A9D8B9112160CEF700048ED0 /* Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeat.swift; sourceTree = "<group>"; };
+		A9D8B9122160CEF700048ED0 /* RetryWhen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetryWhen.swift; sourceTree = "<group>"; };
+		A9D8B9132160CEF700048ED0 /* Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample.swift; sourceTree = "<group>"; };
+		A9D8B9142160CEF800048ED0 /* Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scan.swift; sourceTree = "<group>"; };
+		A9D8B9152160CEF800048ED0 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		A9D8B9162160CEF800048ED0 /* ShareReplayScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareReplayScope.swift; sourceTree = "<group>"; };
+		A9D8B9172160CEF800048ED0 /* SingleAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAsync.swift; sourceTree = "<group>"; };
+		A9D8B9182160CEF800048ED0 /* Sink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
+		A9D8B9192160CEF800048ED0 /* Skip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skip.swift; sourceTree = "<group>"; };
+		A9D8B91A2160CEF800048ED0 /* SkipUntil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipUntil.swift; sourceTree = "<group>"; };
+		A9D8B91B2160CEF800048ED0 /* SkipWhile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkipWhile.swift; sourceTree = "<group>"; };
+		A9D8B91C2160CEF800048ED0 /* StartWith.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWith.swift; sourceTree = "<group>"; };
+		A9D8B91D2160CEF800048ED0 /* SubscribeOn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscribeOn.swift; sourceTree = "<group>"; };
+		A9D8B91E2160CEF800048ED0 /* Switch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switch.swift; sourceTree = "<group>"; };
+		A9D8B91F2160CEF800048ED0 /* SwitchIfEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIfEmpty.swift; sourceTree = "<group>"; };
+		A9D8B9202160CEF800048ED0 /* Take.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take.swift; sourceTree = "<group>"; };
+		A9D8B9212160CEF800048ED0 /* TakeLast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeLast.swift; sourceTree = "<group>"; };
+		A9D8B9222160CEF800048ED0 /* TakeUntil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeUntil.swift; sourceTree = "<group>"; };
+		A9D8B9232160CEF800048ED0 /* TakeWhile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakeWhile.swift; sourceTree = "<group>"; };
+		A9D8B9242160CEF800048ED0 /* Throttle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Throttle.swift; sourceTree = "<group>"; };
+		A9D8B9252160CEF800048ED0 /* Timeout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeout.swift; sourceTree = "<group>"; };
+		A9D8B9262160CEF800048ED0 /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		A9D8B9272160CEF800048ED0 /* ToArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArray.swift; sourceTree = "<group>"; };
+		A9D8B9282160CEF800048ED0 /* Using.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Using.swift; sourceTree = "<group>"; };
+		A9D8B9292160CEF800048ED0 /* Window.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window.swift; sourceTree = "<group>"; };
+		A9D8B92A2160CEF800048ED0 /* WithLatestFrom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WithLatestFrom.swift; sourceTree = "<group>"; };
+		A9D8B92B2160CEF800048ED0 /* Zip+arity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zip+arity.swift"; sourceTree = "<group>"; };
+		A9D8B92C2160CEF800048ED0 /* Zip+Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Zip+Collection.swift"; sourceTree = "<group>"; };
+		A9D8B92D2160CEF800048ED0 /* Zip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
+		A9D8B92E2160CEF800048ED0 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
+		A9D8B92F2160CEF800048ED0 /* ObservableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableType.swift; sourceTree = "<group>"; };
+		A9D8B9312160CEF800048ED0 /* AnonymousObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousObserver.swift; sourceTree = "<group>"; };
+		A9D8B9322160CEF800048ED0 /* ObserverBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverBase.swift; sourceTree = "<group>"; };
+		A9D8B9332160CEF800048ED0 /* TailRecursiveSink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailRecursiveSink.swift; sourceTree = "<group>"; };
+		A9D8B9342160CEF800048ED0 /* ObserverType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverType.swift; sourceTree = "<group>"; };
+		A9D8B9352160CEF800048ED0 /* Reactive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reactive.swift; sourceTree = "<group>"; };
+		A9D8B9362160CEF800048ED0 /* Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
+		A9D8B9372160CEF800048ED0 /* RxMutableBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMutableBox.swift; sourceTree = "<group>"; };
+		A9D8B9392160CEF800048ED0 /* ConcurrentDispatchQueueScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		A9D8B93A2160CEF800048ED0 /* ConcurrentMainScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrentMainScheduler.swift; sourceTree = "<group>"; };
+		A9D8B93B2160CEF800048ED0 /* CurrentThreadScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentThreadScheduler.swift; sourceTree = "<group>"; };
+		A9D8B93C2160CEF800048ED0 /* HistoricalScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalScheduler.swift; sourceTree = "<group>"; };
+		A9D8B93D2160CEF800048ED0 /* HistoricalSchedulerTimeConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoricalSchedulerTimeConverter.swift; sourceTree = "<group>"; };
+		A9D8B93F2160CEF800048ED0 /* DispatchQueueConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueConfiguration.swift; sourceTree = "<group>"; };
+		A9D8B9402160CEF800048ED0 /* InvocableScheduledItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvocableScheduledItem.swift; sourceTree = "<group>"; };
+		A9D8B9412160CEF800048ED0 /* InvocableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvocableType.swift; sourceTree = "<group>"; };
+		A9D8B9422160CEF800048ED0 /* ScheduledItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledItem.swift; sourceTree = "<group>"; };
+		A9D8B9432160CEF800048ED0 /* ScheduledItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduledItemType.swift; sourceTree = "<group>"; };
+		A9D8B9442160CEF800048ED0 /* MainScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScheduler.swift; sourceTree = "<group>"; };
+		A9D8B9452160CEF800048ED0 /* OperationQueueScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueueScheduler.swift; sourceTree = "<group>"; };
+		A9D8B9462160CEF800048ED0 /* RecursiveScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveScheduler.swift; sourceTree = "<group>"; };
+		A9D8B9472160CEF800048ED0 /* SchedulerServices+Emulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SchedulerServices+Emulation.swift"; sourceTree = "<group>"; };
+		A9D8B9482160CEF800048ED0 /* SerialDispatchQueueScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialDispatchQueueScheduler.swift; sourceTree = "<group>"; };
+		A9D8B9492160CEF800048ED0 /* VirtualTimeConverterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTimeConverterType.swift; sourceTree = "<group>"; };
+		A9D8B94A2160CEF800048ED0 /* VirtualTimeScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTimeScheduler.swift; sourceTree = "<group>"; };
+		A9D8B94B2160CEF800048ED0 /* SchedulerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchedulerType.swift; sourceTree = "<group>"; };
+		A9D8B94D2160CEF800048ED0 /* AsyncSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncSubject.swift; sourceTree = "<group>"; };
+		A9D8B94E2160CEF800048ED0 /* BehaviorSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviorSubject.swift; sourceTree = "<group>"; };
+		A9D8B94F2160CEF800048ED0 /* PublishSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishSubject.swift; sourceTree = "<group>"; };
+		A9D8B9502160CEF800048ED0 /* ReplaySubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaySubject.swift; sourceTree = "<group>"; };
+		A9D8B9512160CEF800048ED0 /* SubjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectType.swift; sourceTree = "<group>"; };
+		A9D8B9532160CEF800048ED0 /* SwiftSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSupport.swift; sourceTree = "<group>"; };
+		A9D8B9552160CEF800048ED0 /* Completable+AndThen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Completable+AndThen.swift"; sourceTree = "<group>"; };
+		A9D8B9562160CEF800048ED0 /* Completable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Completable.swift; sourceTree = "<group>"; };
+		A9D8B9572160CEF800048ED0 /* Maybe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maybe.swift; sourceTree = "<group>"; };
+		A9D8B9582160CEF800048ED0 /* ObservableType+PrimitiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+PrimitiveSequence.swift"; sourceTree = "<group>"; };
+		A9D8B9592160CEF800048ED0 /* PrimitiveSequence+Zip+arity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PrimitiveSequence+Zip+arity.swift"; sourceTree = "<group>"; };
+		A9D8B95A2160CEF800048ED0 /* PrimitiveSequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimitiveSequence.swift; sourceTree = "<group>"; };
+		A9D8B95B2160CEF800048ED0 /* Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
 		A9FF6C6E211EE88A0054FBD5 /* Tartanize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tartanize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FF6C71211EE88A0054FBD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FF6C78211EE8950054FBD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,9 +298,271 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A9D8B8B82160CEF700048ED0 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8B92160CEF700048ED0 /* LICENSE.md */,
+				A9D8B8BA2160CEF700048ED0 /* Platform */,
+				A9D8B8C42160CEF700048ED0 /* README.md */,
+				A9D8B8C52160CEF700048ED0 /* RxSwift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		A9D8B8BA2160CEF700048ED0 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8BB2160CEF700048ED0 /* DataStructures */,
+				A9D8B8C02160CEF700048ED0 /* DispatchQueue+Extensions.swift */,
+				A9D8B8C12160CEF700048ED0 /* Platform.Darwin.swift */,
+				A9D8B8C22160CEF700048ED0 /* Platform.Linux.swift */,
+				A9D8B8C32160CEF700048ED0 /* RecursiveLock.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		A9D8B8BB2160CEF700048ED0 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8BC2160CEF700048ED0 /* Bag.swift */,
+				A9D8B8BD2160CEF700048ED0 /* InfiniteSequence.swift */,
+				A9D8B8BE2160CEF700048ED0 /* PriorityQueue.swift */,
+				A9D8B8BF2160CEF700048ED0 /* Queue.swift */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		A9D8B8C52160CEF700048ED0 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8C62160CEF700048ED0 /* AnyObserver.swift */,
+				A9D8B8C72160CEF700048ED0 /* Cancelable.swift */,
+				A9D8B8C82160CEF700048ED0 /* Concurrency */,
+				A9D8B8CF2160CEF700048ED0 /* ConnectableObservableType.swift */,
+				A9D8B8D02160CEF700048ED0 /* Deprecated.swift */,
+				A9D8B8D12160CEF700048ED0 /* Disposable.swift */,
+				A9D8B8D22160CEF700048ED0 /* Disposables */,
+				A9D8B8E02160CEF700048ED0 /* Errors.swift */,
+				A9D8B8E12160CEF700048ED0 /* Event.swift */,
+				A9D8B8E22160CEF700048ED0 /* Extensions */,
+				A9D8B8E52160CEF700048ED0 /* GroupedObservable.swift */,
+				A9D8B8E62160CEF700048ED0 /* ImmediateSchedulerType.swift */,
+				A9D8B8E72160CEF700048ED0 /* Observable.swift */,
+				A9D8B8E82160CEF700048ED0 /* ObservableConvertibleType.swift */,
+				A9D8B8E92160CEF700048ED0 /* Observables */,
+				A9D8B92E2160CEF800048ED0 /* ObservableType+Extensions.swift */,
+				A9D8B92F2160CEF800048ED0 /* ObservableType.swift */,
+				A9D8B9302160CEF800048ED0 /* Observers */,
+				A9D8B9342160CEF800048ED0 /* ObserverType.swift */,
+				A9D8B9352160CEF800048ED0 /* Reactive.swift */,
+				A9D8B9362160CEF800048ED0 /* Rx.swift */,
+				A9D8B9372160CEF800048ED0 /* RxMutableBox.swift */,
+				A9D8B9382160CEF800048ED0 /* Schedulers */,
+				A9D8B94B2160CEF800048ED0 /* SchedulerType.swift */,
+				A9D8B94C2160CEF800048ED0 /* Subjects */,
+				A9D8B9522160CEF800048ED0 /* SwiftSupport */,
+				A9D8B9542160CEF800048ED0 /* Traits */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		A9D8B8C82160CEF700048ED0 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8C92160CEF700048ED0 /* AsyncLock.swift */,
+				A9D8B8CA2160CEF700048ED0 /* Lock.swift */,
+				A9D8B8CB2160CEF700048ED0 /* LockOwnerType.swift */,
+				A9D8B8CC2160CEF700048ED0 /* SynchronizedDisposeType.swift */,
+				A9D8B8CD2160CEF700048ED0 /* SynchronizedOnType.swift */,
+				A9D8B8CE2160CEF700048ED0 /* SynchronizedUnsubscribeType.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		A9D8B8D22160CEF700048ED0 /* Disposables */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8D32160CEF700048ED0 /* AnonymousDisposable.swift */,
+				A9D8B8D42160CEF700048ED0 /* BinaryDisposable.swift */,
+				A9D8B8D52160CEF700048ED0 /* BooleanDisposable.swift */,
+				A9D8B8D62160CEF700048ED0 /* CompositeDisposable.swift */,
+				A9D8B8D72160CEF700048ED0 /* Disposables.swift */,
+				A9D8B8D82160CEF700048ED0 /* DisposeBag.swift */,
+				A9D8B8D92160CEF700048ED0 /* DisposeBase.swift */,
+				A9D8B8DA2160CEF700048ED0 /* NopDisposable.swift */,
+				A9D8B8DB2160CEF700048ED0 /* RefCountDisposable.swift */,
+				A9D8B8DC2160CEF700048ED0 /* ScheduledDisposable.swift */,
+				A9D8B8DD2160CEF700048ED0 /* SerialDisposable.swift */,
+				A9D8B8DE2160CEF700048ED0 /* SingleAssignmentDisposable.swift */,
+				A9D8B8DF2160CEF700048ED0 /* SubscriptionDisposable.swift */,
+			);
+			path = Disposables;
+			sourceTree = "<group>";
+		};
+		A9D8B8E22160CEF700048ED0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8E32160CEF700048ED0 /* Bag+Rx.swift */,
+				A9D8B8E42160CEF700048ED0 /* String+Rx.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A9D8B8E92160CEF700048ED0 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B8EA2160CEF700048ED0 /* AddRef.swift */,
+				A9D8B8EB2160CEF700048ED0 /* Amb.swift */,
+				A9D8B8EC2160CEF700048ED0 /* AsMaybe.swift */,
+				A9D8B8ED2160CEF700048ED0 /* AsSingle.swift */,
+				A9D8B8EE2160CEF700048ED0 /* Buffer.swift */,
+				A9D8B8EF2160CEF700048ED0 /* Catch.swift */,
+				A9D8B8F02160CEF700048ED0 /* CombineLatest+arity.swift */,
+				A9D8B8F12160CEF700048ED0 /* CombineLatest+Collection.swift */,
+				A9D8B8F22160CEF700048ED0 /* CombineLatest.swift */,
+				A9D8B8F32160CEF700048ED0 /* Concat.swift */,
+				A9D8B8F42160CEF700048ED0 /* Create.swift */,
+				A9D8B8F52160CEF700048ED0 /* Debounce.swift */,
+				A9D8B8F62160CEF700048ED0 /* Debug.swift */,
+				A9D8B8F72160CEF700048ED0 /* DefaultIfEmpty.swift */,
+				A9D8B8F82160CEF700048ED0 /* Deferred.swift */,
+				A9D8B8F92160CEF700048ED0 /* Delay.swift */,
+				A9D8B8FA2160CEF700048ED0 /* DelaySubscription.swift */,
+				A9D8B8FB2160CEF700048ED0 /* Dematerialize.swift */,
+				A9D8B8FC2160CEF700048ED0 /* DistinctUntilChanged.swift */,
+				A9D8B8FD2160CEF700048ED0 /* Do.swift */,
+				A9D8B8FE2160CEF700048ED0 /* ElementAt.swift */,
+				A9D8B8FF2160CEF700048ED0 /* Empty.swift */,
+				A9D8B9002160CEF700048ED0 /* Enumerated.swift */,
+				A9D8B9012160CEF700048ED0 /* Error.swift */,
+				A9D8B9022160CEF700048ED0 /* Filter.swift */,
+				A9D8B9032160CEF700048ED0 /* First.swift */,
+				A9D8B9042160CEF700048ED0 /* Generate.swift */,
+				A9D8B9052160CEF700048ED0 /* GroupBy.swift */,
+				A9D8B9062160CEF700048ED0 /* Just.swift */,
+				A9D8B9072160CEF700048ED0 /* Map.swift */,
+				A9D8B9082160CEF700048ED0 /* Materialize.swift */,
+				A9D8B9092160CEF700048ED0 /* Merge.swift */,
+				A9D8B90A2160CEF700048ED0 /* Multicast.swift */,
+				A9D8B90B2160CEF700048ED0 /* Never.swift */,
+				A9D8B90C2160CEF700048ED0 /* ObserveOn.swift */,
+				A9D8B90D2160CEF700048ED0 /* Optional.swift */,
+				A9D8B90E2160CEF700048ED0 /* Producer.swift */,
+				A9D8B90F2160CEF700048ED0 /* Range.swift */,
+				A9D8B9102160CEF700048ED0 /* Reduce.swift */,
+				A9D8B9112160CEF700048ED0 /* Repeat.swift */,
+				A9D8B9122160CEF700048ED0 /* RetryWhen.swift */,
+				A9D8B9132160CEF700048ED0 /* Sample.swift */,
+				A9D8B9142160CEF800048ED0 /* Scan.swift */,
+				A9D8B9152160CEF800048ED0 /* Sequence.swift */,
+				A9D8B9162160CEF800048ED0 /* ShareReplayScope.swift */,
+				A9D8B9172160CEF800048ED0 /* SingleAsync.swift */,
+				A9D8B9182160CEF800048ED0 /* Sink.swift */,
+				A9D8B9192160CEF800048ED0 /* Skip.swift */,
+				A9D8B91A2160CEF800048ED0 /* SkipUntil.swift */,
+				A9D8B91B2160CEF800048ED0 /* SkipWhile.swift */,
+				A9D8B91C2160CEF800048ED0 /* StartWith.swift */,
+				A9D8B91D2160CEF800048ED0 /* SubscribeOn.swift */,
+				A9D8B91E2160CEF800048ED0 /* Switch.swift */,
+				A9D8B91F2160CEF800048ED0 /* SwitchIfEmpty.swift */,
+				A9D8B9202160CEF800048ED0 /* Take.swift */,
+				A9D8B9212160CEF800048ED0 /* TakeLast.swift */,
+				A9D8B9222160CEF800048ED0 /* TakeUntil.swift */,
+				A9D8B9232160CEF800048ED0 /* TakeWhile.swift */,
+				A9D8B9242160CEF800048ED0 /* Throttle.swift */,
+				A9D8B9252160CEF800048ED0 /* Timeout.swift */,
+				A9D8B9262160CEF800048ED0 /* Timer.swift */,
+				A9D8B9272160CEF800048ED0 /* ToArray.swift */,
+				A9D8B9282160CEF800048ED0 /* Using.swift */,
+				A9D8B9292160CEF800048ED0 /* Window.swift */,
+				A9D8B92A2160CEF800048ED0 /* WithLatestFrom.swift */,
+				A9D8B92B2160CEF800048ED0 /* Zip+arity.swift */,
+				A9D8B92C2160CEF800048ED0 /* Zip+Collection.swift */,
+				A9D8B92D2160CEF800048ED0 /* Zip.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		A9D8B9302160CEF800048ED0 /* Observers */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B9312160CEF800048ED0 /* AnonymousObserver.swift */,
+				A9D8B9322160CEF800048ED0 /* ObserverBase.swift */,
+				A9D8B9332160CEF800048ED0 /* TailRecursiveSink.swift */,
+			);
+			path = Observers;
+			sourceTree = "<group>";
+		};
+		A9D8B9382160CEF800048ED0 /* Schedulers */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B9392160CEF800048ED0 /* ConcurrentDispatchQueueScheduler.swift */,
+				A9D8B93A2160CEF800048ED0 /* ConcurrentMainScheduler.swift */,
+				A9D8B93B2160CEF800048ED0 /* CurrentThreadScheduler.swift */,
+				A9D8B93C2160CEF800048ED0 /* HistoricalScheduler.swift */,
+				A9D8B93D2160CEF800048ED0 /* HistoricalSchedulerTimeConverter.swift */,
+				A9D8B93E2160CEF800048ED0 /* Internal */,
+				A9D8B9442160CEF800048ED0 /* MainScheduler.swift */,
+				A9D8B9452160CEF800048ED0 /* OperationQueueScheduler.swift */,
+				A9D8B9462160CEF800048ED0 /* RecursiveScheduler.swift */,
+				A9D8B9472160CEF800048ED0 /* SchedulerServices+Emulation.swift */,
+				A9D8B9482160CEF800048ED0 /* SerialDispatchQueueScheduler.swift */,
+				A9D8B9492160CEF800048ED0 /* VirtualTimeConverterType.swift */,
+				A9D8B94A2160CEF800048ED0 /* VirtualTimeScheduler.swift */,
+			);
+			path = Schedulers;
+			sourceTree = "<group>";
+		};
+		A9D8B93E2160CEF800048ED0 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B93F2160CEF800048ED0 /* DispatchQueueConfiguration.swift */,
+				A9D8B9402160CEF800048ED0 /* InvocableScheduledItem.swift */,
+				A9D8B9412160CEF800048ED0 /* InvocableType.swift */,
+				A9D8B9422160CEF800048ED0 /* ScheduledItem.swift */,
+				A9D8B9432160CEF800048ED0 /* ScheduledItemType.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		A9D8B94C2160CEF800048ED0 /* Subjects */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B94D2160CEF800048ED0 /* AsyncSubject.swift */,
+				A9D8B94E2160CEF800048ED0 /* BehaviorSubject.swift */,
+				A9D8B94F2160CEF800048ED0 /* PublishSubject.swift */,
+				A9D8B9502160CEF800048ED0 /* ReplaySubject.swift */,
+				A9D8B9512160CEF800048ED0 /* SubjectType.swift */,
+			);
+			path = Subjects;
+			sourceTree = "<group>";
+		};
+		A9D8B9522160CEF800048ED0 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B9532160CEF800048ED0 /* SwiftSupport.swift */,
+			);
+			path = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		A9D8B9542160CEF800048ED0 /* Traits */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8B9552160CEF800048ED0 /* Completable+AndThen.swift */,
+				A9D8B9562160CEF800048ED0 /* Completable.swift */,
+				A9D8B9572160CEF800048ED0 /* Maybe.swift */,
+				A9D8B9582160CEF800048ED0 /* ObservableType+PrimitiveSequence.swift */,
+				A9D8B9592160CEF800048ED0 /* PrimitiveSequence+Zip+arity.swift */,
+				A9D8B95A2160CEF800048ED0 /* PrimitiveSequence.swift */,
+				A9D8B95B2160CEF800048ED0 /* Single.swift */,
+			);
+			path = Traits;
+			sourceTree = "<group>";
+		};
 		A9FF6C65211EE88A0054FBD5 = {
 			isa = PBXGroup;
 			children = (
+				A9D8B8B82160CEF700048ED0 /* RxSwift */,
 				A9FF6C70211EE88A0054FBD5 /* Tartanize */,
 				A9FF6C85211EE8950054FBD5 /* TartanizeTests */,
 				A9FF6C90211EE8950054FBD5 /* TartanizeUITests */,
@@ -693,8 +1105,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = Tartanize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -712,8 +1125,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5VGL2XRGNT;
+				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = Tartanize/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

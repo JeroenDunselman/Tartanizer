@@ -35,12 +35,19 @@ class FilteredTartanImageService: NSObject {
     
     public func serveFreshTitleForColorFilter() -> String? {
         colorFilter.shuffleTitles()
-        
+
+//        if let result = colorFilter.titlesInColorSet.first(where: {filteredTitle in
+//            !(self.imageService?.assetService.content
+//                .compactMap({return $0.entry.title})
+//                .contains(where: { $0 == filteredTitle}))!
+//        }) { return result}
+
         if let result = colorFilter.titlesInColorSet.first(where: {filteredTitle in
-            !(self.imageService?.assetService.content
-                .compactMap({return $0.entry.title})
+            !(self.imageService?.assetService.contentTitles()
+//                .compactMap({return $0 })
                 .contains(where: { $0 == filteredTitle}))!
         }) { return result}
+        
         return nil
     }
     
